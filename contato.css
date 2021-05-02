@@ -1,0 +1,55 @@
+label,
+textarea {
+    font-size: 14pt;
+    padding-left: 30px;
+    padding-top:10px ;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+}
+
+.campoContato {
+
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+textarea {
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+#mensagem{
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: violet;
+
+}
+
+#botaoContato{
+    height: 40px;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 28px;
+    background-color:#6ae797;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    display: block;
+
+}

@@ -1,0 +1,186 @@
+header {
+
+    height: 100px;
+    float: left;
+    width: 100%;
+    background-color: #000000
+}
+
+#marca{
+    font-size: 24pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    color: violet;
+    float: left;
+    padding-top: 34px;
+    padding-left: 30px;
+} 
+
+nav{
+
+    float: right;
+    padding-top: 41px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px 0 0px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold; 
+    font-size: 18px;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#993399;
+    text-decoration: underline;
+}
+
+
+.capa{
+    background: url("bannerInicial.png") no-repeat;
+    background-size: cover;
+    height: 470px;
+    float: left;
+    width: 100%;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+#textoCapa{
+    font-size: 28px;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 267px;
+    left: 40px;
+    text-transform: uppercase;
+    text-shadow: whitesmoke;
+}
+
+
+.selecao {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20pt;
+    background-color: whitesmoke;
+}
+
+#perfil{
+    text-align: left;
+    font-size: 30pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    color: violet;
+    padding: 30px;
+    padding-top: 10%;
+
+
+}
+
+.paragrafoPerfil{
+    text-align: justify;
+    font-size: 20pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    padding:30px;
+    
+
+}
+
+.mods{
+    font-size: 14pt;
+    color:black;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+}
+#perguntaLista{
+    font-size: 20pt;
+    font-weight: bold;
+    color: black;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    
+}
+
+
+#seletor{
+    border-radius: 7px; 
+    width: 250px;
+    margin: 0 15px;
+    font-size: 20px;
+    color:black;
+
+}
+
+#botao{
+    height: 50px;
+    width: 190px;
+    background-color:#6ae797;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#textoContato{
+    font-size: 15pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 30px;
+}
+
+.tituloOpcoes{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.secaoConteudo{
+    float: left;
+    width: 100%;
+}
+
+#ultimaSecao{
+margin-bottom: 30px;
+}
+
+.descricaoBloco{
+    float: left;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.banner:hover{
+border-color:#6ae797;
+}
+
+.info{
+    font-size: 10pt;
+    font-family: monospace, cursive, Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+
+}
+
+div a{
+    text-decoration: none;
+}
